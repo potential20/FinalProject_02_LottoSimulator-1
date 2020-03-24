@@ -168,6 +168,59 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <TextView
+            android:id="@+id/firstRankCountTxt"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="1등 : 0회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/secondRankCountTxt"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="2등 : 0회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/thirdRankCountTxt"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="3등 : 0회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fourthRankCountTxt"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="4등 : 0회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/fifthRankCountTxt"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="5등 : 0회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/noRankCountTxt"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:text="낙점 : 0회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
 
     </LinearLayout>
 </layout>
