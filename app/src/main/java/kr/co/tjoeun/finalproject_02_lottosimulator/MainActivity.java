@@ -47,6 +47,19 @@ public class MainActivity extends BaseActivity {
     @Override
     public void setupEvents() {
 
+        binding.buyAutoLottoBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+//                사용금액의 총액이 1천만원이 될때 까지 반복
+
+                while (useMoneyAmount < 10000000) {
+//                    당첨번호를 만들고 => 등수를 카운팅 반복
+                    makeWinLottoNum();
+                    checkLottoRank();
+                }
+            }
+        });
+
         binding.buyOneLottoBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
